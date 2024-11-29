@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/cardNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="Card Number"
+        style="@style/CommonEditText"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/cardExpiryEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="Card Expiry (MM/YY)"
+        style="@style/CommonEditText"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/cardCvcEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="Card CVC"
+        style="@style/CommonEditText"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/submitButton"
+        style="@style/CommonButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+</LinearLayout>

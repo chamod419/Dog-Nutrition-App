@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Update quantity:"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/quantityEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        style="@style/CommonEditText"
+        android:layout_marginBottom="15dp"
+        android:hint="Quantity" />
+
+    <Button
+        android:id="@+id/updateButton"
+        style="@style/CommonButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Update" />
+</LinearLayout>

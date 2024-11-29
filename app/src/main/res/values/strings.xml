@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">happyDog</string>
+    <string-array name="sort_options">
+        <item>Price: Upwards</item>
+        <item>Price: Downwards</item>
+    </string-array>
+    <string-array name="sort_options2">
+        <item>Accessory</item>
+        <item>Clothing</item>
+        <item>Grooming</item>
+        <item>Toy</item>
+    </string-array>
+
+    <string-array name="payment_method_array">
+        <item>Online Card</item>
+        <item>COD - Cash On Delivery</item>
+    </string-array>
+</resources>

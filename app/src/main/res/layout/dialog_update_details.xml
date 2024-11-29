@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/dialogNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CommonEditText"
+        android:layout_marginBottom="20dp"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/dialogAddressEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CommonEditText"
+        android:layout_marginBottom="20dp"
+        android:hint="Address" />
+
+    <EditText
+        android:id="@+id/dialogAgeEditText"
+        style="@style/CommonEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="Age" />
+
+    <Spinner
+        android:id="@+id/dialogPaymentMethodSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CommonEditText"
+        android:entries="@array/payment_method_array" />
+
+</LinearLayout>
