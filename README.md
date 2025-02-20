@@ -42,11 +42,36 @@ To set up this project locally, follow these steps:
 ## Screenshots
 Here are some screenshots of the app:
 
-### Login Screen
-![Login Screen](screenshots/login.png)
-
 ### Product Catalog
-![Product Catalog](screenshots/catalog.png)
+![Product Catalog](screenshots/App.jpg)
+
+### Welcome Screen
+![Welcome Screen](screenshots/Welcome.jpg)
+
+### Login Screen
+![Login Screen](screenshots/login.jpg)
+
+### Sign Up Screen
+![Sign Up Screen](screenshots/Sign%20Up.jpg)
+
+### Homepage
+![Homepage](screenshots/Homepage.jpg)
+
+### Shopping Cart
+![Shopping Cart](screenshots/Cart.jpg)
 
 ### Nutrition Guides
-![Nutrition Guides](screenshots/guides.png)
+![Nutrition Guides](screenshots/Educational.jpg)
+
+### Profile
+![Profile](screenshots/Profile.jpg)
+
+## Contact
+If you have any questions or feedback, feel free to reach out:
+- **GitHub**: [chamod419](https://github.com/chamod419)
+- **LinkedIn**: [chamod](https://www.linkedin.com/in/chamod-madhusanka/)
+- **Email**: chamodmadhusanka55@gmail.com
+
+## Acknowledgments
+- Thanks to **Firebase** for providing an excellent backend solution.
+- Built using **Android Studio**, **Java/Kotlin**, and **Firebase**.
