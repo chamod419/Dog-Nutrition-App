@@ -72,6 +72,7 @@ If you have any questions or feedback, feel free to reach out:
 - **LinkedIn**: [chamod](https://www.linkedin.com/in/chamod-madhusanka/)
 - **Email**: chamodmadhusanka55@gmail.com
 
+
 ## Acknowledgments
 - Thanks to **Firebase** for providing an excellent backend solution.
 - Built using **Android Studio**, **Java/Kotlin**, and **Firebase**.
